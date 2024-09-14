@@ -4,10 +4,73 @@
 }
 
 body{
-    
+    font-family: "Montserrat", sans-serif;
 }
 
 .header{
     width: 100%;
     box-sizing: border-box;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    padding: 40px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 7px rgba(129, 129, 129, 0.25);
+}
+
+.menu__ul{
+    display: flex;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19.5px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    list-style: none;
+}
+.menu__link{
+    text-decoration: none;
+    margin-right: 40px;
+    color:black;
+}
+.menu__logo{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    letter-spacing: -0.015em;
+    justify-content: center;
+    text-align: left;
+    color: #05A88D;
+    text-decoration: none;
+}
+.btn {
+    display: inherit;
+    justify-content: flex-end;
+    align-items: center;
+    width: 33.3%;
+}
+.menu__signup{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+    border: 1px solid #05a88d;
+    border-radius: 3px;
+    padding: 12.5px 21.5px;
+    color: #05a88d;
+}
+.menu__login {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    margin-left: 70px;
+    color: #05a88d;
+}
+.menu__link:hover{
+    color:#05A88D;
 }
